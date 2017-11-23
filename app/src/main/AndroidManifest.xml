@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pc.appamthuc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ManHinhMonAnSangActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ManHinhThucUongActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ManHinhMonDacSanctivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ManHinhCachLamBanhActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ManHinhMonNhauActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ManHinhMonChayActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ManHinhThucUong2Activity"
+            android:parentActivityName=".ManHinhThucUongActivity" />
+        <activity
+            android:name=".ManHinhCachLamBanh2Activity"
+            android:parentActivityName=".ManHinhCachLamBanhActivity" />
+        <activity
+            android:name=".ManHinhMonDacSan2Activity"
+            android:parentActivityName=".ManHinhMonDacSanctivity" />
+        <activity
+            android:name=".ManHinhMonNhau2Activity"
+            android:parentActivityName=".ManHinhMonNhauActivity" />
+        <activity
+            android:name=".ManHinhMonChay2Activity"
+            android:parentActivityName=".ManHinhMonChayActivity" />
+        <activity
+            android:name=".ManHinhMonAnSang2Activity"
+            android:parentActivityName=".ManHinhMonAnSangActivity" />
+        <activity android:name=".BookActivity"></activity>
+    </application>
+
+</manifest>
